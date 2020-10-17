@@ -1,37 +1,36 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
   <head>
-    <title>CodeWizard</title>
-    <h1>Ajay</h1>
-    <h2>P Sakthikumar</h2>
+    <title>Ajay</title>
+    <link rel="icon" href="assets/icon.png">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script src="scripts/test.js"></script>
   </head>
   <body>
-    <p>
-      <b>Info</b>
-    </p> <br>
-    <p>
-      Name          : Ajay P Sakthikumar <br>
-      Age           : 20 <br> 
-      DOB           : 12-08-2000 <br>
-      Email         : 
-        <sakthikumarajay@gmail class="com">
-    sakthikumarajay@gmail.com    
-        </sakthikumarajay@gmail> <br>
-      Phone         : +91 85474 92125 <br>
-      GitHub Alias  : CodeWizard <br>
-    </p>
-    <p>
-      <b>Resume</b><br>
-    </p>
-    <a href="assets/PDF/Resume/Resume_27_08_2020.pdf">
-      View
-    </a>
-    <p>
-      <br>
-      <b>Certificates</b>
-      <br>
-    </p>
-    <a href="pages/certificates.html">
-      View
-    </a>
+  // add icon in assets as icon.png
+
+    <div class="container">
+
+      <div id="sidebar">
+      <center>
+        <img id="port" src="assets/dp.jpg">
+        <p><strong>Ajay P Sakthikumar</strong></p>
+        <p>Undergrad at Computer Science Engineering Department</p>
+        <p>NIT Calicut</p>
+      </center>
+      </div>
+
+      <div id="terminal">
+        <div id="injected"></div>
+        <div id="userInput">
+          <input type="text" value="root@ajay's website:~$" id="prompt" size = "28" readonly="readonly">
+          <input type="text" id="txtBox" onkeypress="commandProcessor(event)" placeholder="Enter help for commands list" size = "40" autofocus>
+        </div>
+      </div>
+
+    </div>
+
   </body>
 </html>
