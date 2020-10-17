@@ -42,11 +42,21 @@ function help(){
   }
   
   function skills(){
-    return "<h2><span style=\"color:#81b2be;\">Skills:</span></h2><ul><li>Add it on your own bish</li></ul>";
+    return "<h2>
+      <span style=\"color:#81b2be;\">
+        Skills:
+      </span>
+      </h2>
+      <ul>
+          <li>Python</li>
+          <li>Backend Dev</li>
+          <li>Flutter</li>
+          <li>Linux</li>
+      </ul>";
   }
   
   function about(){
-    return "<h2><span style=\"color:#bbc690;\">About:</span><p>Im a bish and I code</p>";
+    return "<h2><span style=\"color:#bbc690;\">About:</span><p>I code</p>";
   }
   
   function cv(){
