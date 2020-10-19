@@ -42,7 +42,7 @@ function help(){
   }
   
   function skills(){
-    return "<h2><span style=\"color:#81b2be;\">Skills:</span></h2><ul><li>Add it on your own bish</li></ul>";
+    return "<h2><span style=\"color:#81b2be;\">Skills:</span></h2><ul><li>Python</li><li>C</li><li>R</li><li>C#</li><liC++</li><li>Flutter</li></ul>";
   }
   
   function about(){
@@ -59,9 +59,9 @@ function help(){
   function links(){
     //change the corresponding stuff
     return "<span style=\"color: #b5bd68;\"><h2>Links:</h2></span><ul>\
-    <li><a href=\"https://www.linkedin.com/\" target=\"_blank\"><i class=\"fab fa-linkedin\"></i> LinkedIn</a></li>\
-    <li><a href=\"https://www.github.com/\" target=\"_blank\"><i class=\"fab fa-github\"></i> Github</a></li>\
-    <li><a href=\"https://www.twitter.com/\" target=\"_blank\"><i class=\"fab fa-twitter\"></i> Twitter</a></li>\
+    <li><a href=\"https://www.linkedin.com/in/ajay-sakthikumar-015a28b5/\" target=\"_blank\"><i class=\"fab fa-linkedin\"></i> LinkedIn</a></li>\
+    <li><a href=\"https://github.com/CodeWizrd001/\" target=\"_blank\"><i class=\"fab fa-github\"></i> Github</a></li>\
+    <li><a href=\"https://twitter.com/Ajay_PS_001\" target=\"_blank\"><i class=\"fab fa-twitter\"></i> Twitter</a></li>\
     </ul>";
   }
   
