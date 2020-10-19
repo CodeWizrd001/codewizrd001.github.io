@@ -46,7 +46,7 @@ function help(){
   }
   
   function about(){
-    return "<h2><span style=\"color:#bbc690;\">About:</span><p>Backend Developer</p>";
+    return "<h2><span style=\"color:#bbc690;\">About:</span><p><center>Backend Developer</center></p>";
   }
   
   function cv(){
@@ -102,4 +102,5 @@ function help(){
       document.getElementById('txtBox').value= "";
     }
   }
+  
   
