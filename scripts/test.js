@@ -28,7 +28,7 @@ function help(){
     </tr>\
     <tr>\
       <td>hireme</td>\
-      <td>CV</td>\
+      <td>Resume</td>\
     </tr>\
   </table>";
   }
@@ -42,36 +42,26 @@ function help(){
   }
   
   function skills(){
-    return "<h2>
-      <span style=\"color:#81b2be;\">
-        Skills:
-      </span>
-      </h2>
-      <ul>
-          <li>Python</li>
-          <li>Backend Dev</li>
-          <li>Flutter</li>
-          <li>Linux</li>
-      </ul>";
+    return "<h2><span style=\"color:#81b2be;\">Skills:</span></h2><ul><li>Python</li><li>C</li><li>R</li><li>C#</li><liC++</li><li>Flutter</li></ul>";
   }
   
   function about(){
-    return "<h2><span style=\"color:#bbc690;\">About:</span><p>I code</p>";
+    return "<h2><span style=\"color:#bbc690;\">About:</span><p><center>Backend Developer</center></p>";
   }
   
   function cv(){
-    return "<span style=\"color:#8abeb7;\"><h2>CV:</h2></span><p>\tDownload from <a href=\"assets/PDF/Resume/Resume_27_08_2020.pdf\" target=\"_blank\" style=\"text-decoration: underline;\">here</a>.</p>";
+    return "<span style=\"color:#8abeb7;\"><h2>Resume:</h2></span><p>\tDownload from <a href=\"assets/PDF/Resume/Resume_27_08_2020.pdf\" target=\"_blank\" style=\"text-decoration: underline;\">here</a>.</p>";
   }
   function cert(){
-    return "<span style=\"color:#aefeb7;\"><h2>Certificates:</h2></span><p>\t<ul><li><a href=\"assets/PDF/Certificates/Coursera 66QP5WT6TJ5Z.pdf\" target=\"_blank\" style=\"text-decoration: underline;\">here</a></li><li><a href=\"assets/PDF/Certificates/Coursera GEFPPACR3SCL.pdf\" target=\"_blank\" style=\"text-decoration: underline;\">here</a></li><li><a href=\"assets/PDF/Certificates/Coursera JLABFR2P2832.pdf\" target=\"_blank\" style=\"text-decoration: underline;\">here</a></li><li><a href=\"assets/PDF/Certificates/Coursera Z8XU9ELJ8B2U.pdf\" target=\"_blank\" style=\"text-decoration: underline;\">Give names from test.js</a></li></ul>";
+    return "<span style=\"color:#aefeb7;\"><h2>Certificates:</h2></span><p>\t<ul><li><a href=\"assets/PDF/Certificates/Coursera 66QP5WT6TJ5Z.pdf\" target=\"_blank\" style=\"text-decoration: underline;\">Deep Neural Networks</a></li><li><a href=\"assets/PDF/Certificates/Coursera GEFPPACR3SCL.pdf\" target=\"_blank\" style=\"text-decoration: underline;\">Convolutional Neural Networks</a></li><li><a href=\"assets/PDF/Certificates/Coursera JLABFR2P2832.pdf\" target=\"_blank\" style=\"text-decoration: underline;\">Neural Networks and Deep Learning</a></li><li><a href=\"assets/PDF/Certificates/Coursera Z8XU9ELJ8B2U.pdf\" target=\"_blank\" style=\"text-decoration: underline;\">Structuring Machine Learning Projects</a></li></ul>";
   }
   
   function links(){
     //change the corresponding stuff
     return "<span style=\"color: #b5bd68;\"><h2>Links:</h2></span><ul>\
-    <li><a href=\"https://www.linkedin.com/\" target=\"_blank\"><i class=\"fab fa-linkedin\"></i> LinkedIn</a></li>\
-    <li><a href=\"https://www.github.com/\" target=\"_blank\"><i class=\"fab fa-github\"></i> Github</a></li>\
-    <li><a href=\"https://www.twitter.com/\" target=\"_blank\"><i class=\"fab fa-twitter\"></i> Twitter</a></li>\
+    <li><a href=\"https://www.linkedin.com/in/ajay-sakthikumar-015a28b5/\" target=\"_blank\"><i class=\"fab fa-linkedin\"></i> LinkedIn</a></li>\
+    <li><a href=\"https://github.com/CodeWizrd001/\" target=\"_blank\"><i class=\"fab fa-github\"></i> Github</a></li>\
+    <li><a href=\"https://twitter.com/Ajay_PS_001\" target=\"_blank\"><i class=\"fab fa-twitter\"></i> Twitter</a></li>\
     </ul>";
   }
   
@@ -112,4 +102,5 @@ function help(){
       document.getElementById('txtBox').value= "";
     }
   }
+  
   
