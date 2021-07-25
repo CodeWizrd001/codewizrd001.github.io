@@ -24,7 +24,7 @@ function help(){
     </tr>\
     <tr>\
       <td>certificates</td>\
-      <td>Something idk</td>\
+      <td>Courses and Certificates</td>\
     </tr>\
     <tr>\
       <td>hireme</td>\
