@@ -50,7 +50,7 @@ function help(){
   }
   
   function cv(){
-    return "<span style=\"color:#8abeb7;\"><h2>Resume:</h2></span><p>\tDownload from <a href=\"assets/PDF/Resume/Resume_27_08_2020.pdf\" target=\"_blank\" style=\"text-decoration: underline;\">here</a>.</p>";
+    return "<span style=\"color:#8abeb7;\"><h2>Resume:</h2></span><p>\tDownload from <a href=\"assets/PDF/Resume/Resume_2021_05_20.pdf\" target=\"_blank\" style=\"text-decoration: underline;\">here</a>.</p>";
   }
   function cert(){
     return "<span style=\"color:#aefeb7;\"><h2>Certificates:</h2></span><p>\t<ul><li><a href=\"assets/PDF/Certificates/Coursera 66QP5WT6TJ5Z.pdf\" target=\"_blank\" style=\"text-decoration: underline;\">Deep Neural Networks</a></li><li><a href=\"assets/PDF/Certificates/Coursera GEFPPACR3SCL.pdf\" target=\"_blank\" style=\"text-decoration: underline;\">Convolutional Neural Networks</a></li><li><a href=\"assets/PDF/Certificates/Coursera JLABFR2P2832.pdf\" target=\"_blank\" style=\"text-decoration: underline;\">Neural Networks and Deep Learning</a></li><li><a href=\"assets/PDF/Certificates/Coursera Z8XU9ELJ8B2U.pdf\" target=\"_blank\" style=\"text-decoration: underline;\">Structuring Machine Learning Projects</a></li></ul>";
