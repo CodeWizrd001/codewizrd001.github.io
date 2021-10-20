@@ -46,7 +46,7 @@ function help(){
   }
   
   function about(){
-    return "<h2><span style=\"color:#bbc690;\">About:</span><p><center>Backend Developer</center></p>";
+    return "<h2><span style=\"color:#bbc690;\">About:</span><p><center>Fullstack Developer , App Developer , Security Enthusiast</center></p>";
   }
   
   function cv(){
