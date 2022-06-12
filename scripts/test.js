@@ -30,6 +30,10 @@ function help(){
       <td>hireme</td>\
       <td>Resume</td>\
     </tr>\
+    <tr>\
+      <td>Dev</td>\
+      <td>Redirect to dev site</td>\
+    </tr>\
   </table>";
   }
   
@@ -76,6 +80,7 @@ function help(){
   
       //Get user input
       var txtInput = document.getElementById('txtBox').value;
+      txtInput = txtInput.toLowerCase();
   
       //Select what info to print according to command
       if(txtInput == "help"){
@@ -94,6 +99,8 @@ function help(){
         document.getElementById('injected').innerHTML=cert();
       }else if (txtInput=="links") {
         document.getElementById('injected').innerHTML=links();
+      }else if(txtInput=="dev"){
+        window.location.href = "https://codewizard001.vercel.app/";
       }else{
         document.getElementById('injected').innerHTML = help();
       }
