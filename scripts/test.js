@@ -50,7 +50,25 @@ function help(){
   }
   
   function about(){
-    return "<h2><span style=\"color:#bbc690;\">About:</span><p><center>Fullstack Developer , App Developer , Security Enthusiast</center></p>";
+    return `
+      <h2>
+        <span style=\"color:#bbc690;\">
+          Experience:
+        </span>
+        <p>
+          <center>
+            BTech Computer Science and Engineering at NIT Calicut (2018-2022)
+          </center>
+        </p>
+        <span style=\"color:#bbc690;\">
+          Interests:
+        </span>
+        <p>
+          <center>
+            Fullstack Developer , App Developer , Security Enthusiast
+          </center>
+        </p>
+    `;
   }
   
   function cv(){
