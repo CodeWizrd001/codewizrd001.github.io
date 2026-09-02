@@ -25,9 +25,11 @@ Data is centralized in [`lib/data.ts`](./lib/data.ts) — edit that file to upda
 
 ## Local development
 
+This project uses **Yarn (Berry / v4)** with the `node-modules` linker — configured in [`.yarnrc.yml`](./.yarnrc.yml). PnP is disabled, so tooling that expects a real `node_modules/` (Next.js, editors, IDEs) works out of the box.
+
 ```bash
-npm install
-npm run dev
+yarn install
+yarn dev
 ```
 
 Then open <http://localhost:3000>.
@@ -35,10 +37,12 @@ Then open <http://localhost:3000>.
 Other scripts:
 
 ```bash
-npm run build   # production build
-npm run start   # run the production build locally
-npm run lint    # eslint
+yarn build   # production build
+yarn start   # run the production build locally
+yarn lint    # eslint
 ```
+
+> npm also works if you prefer it — the `package.json` scripts are package-manager-agnostic. Just stick to one lockfile.
 
 ## Deploy
 

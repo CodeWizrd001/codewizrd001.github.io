@@ -9,10 +9,10 @@ import { useEffect, useState } from "react";
 import { profile, socials } from "@/lib/data";
 
 const rotatingRoles = [
-  "Fullstack Developer",
-  "App Developer",
-  "Security Enthusiast",
-  "Terminal Fan",
+  "ship fullstack products",
+  "break & defend systems",
+  "prototype with LLMs",
+  "live in the terminal",
 ];
 
 export function Hero() {
@@ -84,7 +84,7 @@ export function Hero() {
             Hi, I&apos;m{" "}
             <span className="text-gradient">Ajay</span>.
             <br />
-            <span className="text-white/85">I build things that</span>{" "}
+            <span className="text-white/85">I</span>{" "}
             <span className="whitespace-nowrap font-mono text-accent-mint">
               {text}
               <span className="ml-0.5 inline-block h-[0.9em] w-[2px] translate-y-[2px] bg-accent-mint animate-blink align-middle" />
@@ -97,9 +97,7 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.15 }}
             className="mt-6 max-w-xl text-base text-white/70 sm:text-lg"
           >
-            {profile.tagline} Currently{" "}
-            <span className="text-white">{profile.role}</span> at{" "}
-            <span className="text-white">{profile.company}</span>.
+            {profile.tagline}
           </motion.p>
 
           <motion.div
@@ -183,18 +181,18 @@ export function Hero() {
               <p className="mt-2">
                 <span className="text-accent-sand">➜</span>{" "}
                 <span className="text-accent-mint">~</span>{" "}
-                <span className="text-accent-sky">cat</span> role.txt
+                <span className="text-accent-sky">cat</span> stack.txt
               </p>
               <p className="pl-4 text-white/70">
-                {profile.role} @ {profile.company}
+                fullstack · security · ai/llm
               </p>
               <p className="mt-2">
                 <span className="text-accent-sand">➜</span>{" "}
                 <span className="text-accent-mint">~</span>{" "}
-                <span className="text-accent-sky">ls</span> interests/
+                <span className="text-accent-sky">ls</span> history/
               </p>
               <p className="pl-4 text-accent-lime">
-                fullstack.md app-dev.md security.md ml.md
+                flyfin-ai/ harness/ sap-labs/ nit-c/
               </p>
               <p className="mt-2">
                 <span className="text-accent-sand">➜</span>{" "}

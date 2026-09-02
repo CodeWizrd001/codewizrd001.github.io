@@ -36,6 +36,15 @@ next-env.d.ts
 # vercel
 .vercel
 
+# yarn berry (node-modules linker) — commit yarn.lock, but ignore local caches / PnP
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
 # editors
 .vscode/
 .idea/

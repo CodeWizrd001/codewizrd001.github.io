@@ -87,16 +87,17 @@ export function Timeline() {
                         alignRight ? "md:mr-2" : "md:ml-2"
                       }`}
                     >
-                      {/* Date pill on the empty side (desktop only) */}
-                      <div
-                        className={`pointer-events-none absolute top-6 hidden font-mono text-xs uppercase tracking-widest text-white/60 md:block ${
-                          alignRight ? "left-full pl-10" : "right-full pr-10 text-right"
+                      {/* Date pill on the empty side (desktop only).
+                          Offset must clear the 36px timeline dot centered on the rail. */}
+                      <span
+                        className={`pointer-events-none absolute top-6 hidden w-max whitespace-nowrap rounded-full border border-white/10 bg-white/5 px-3 py-1 font-mono text-xs uppercase tracking-widest text-white/70 md:inline-block ${
+                          alignRight
+                            ? "left-[calc(100%+4rem)]"
+                            : "right-[calc(100%+4rem)]"
                         }`}
                       >
-                        <span className="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-white/70">
-                          {item.start} — {item.end}
-                        </span>
-                      </div>
+                        {item.start} — {item.end}
+                      </span>
 
                       <div className="mb-3 flex flex-wrap items-center gap-2 md:hidden">
                         <span className="rounded-full border border-white/10 bg-white/5 px-2.5 py-0.5 font-mono text-[10px] uppercase tracking-widest text-white/60">

@@ -31,10 +31,10 @@ export function About() {
 
             <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-4">
               {[
-                { k: "Role", v: profile.role },
-                { k: "Company", v: profile.company },
+                { k: "Focus", v: "Fullstack · AI · Security" },
+                { k: "Latest", v: "FlyFin AI" },
                 { k: "Base", v: profile.location.split(",")[0] },
-                { k: "Since", v: "2022" },
+                { k: "Since", v: "2021" },
               ].map((chip) => (
                 <div
                   key={chip.k}

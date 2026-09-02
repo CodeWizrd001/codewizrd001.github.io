@@ -12,22 +12,30 @@ const accents = [
   "moss",
 ];
 
+const opacities = ["10", "15", "20", "25", "30", "40", "50"];
+
+const accentSafelist = accents.flatMap((a) => [
+  `text-accent-${a}`,
+  `bg-accent-${a}`,
+  `border-accent-${a}`,
+  `ring-accent-${a}`,
+  ...opacities.flatMap((o) => [
+    `bg-accent-${a}/${o}`,
+    `border-accent-${a}/${o}`,
+    `from-accent-${a}/${o}`,
+    `via-accent-${a}/${o}`,
+    `to-accent-${a}/${o}`,
+    `shadow-accent-${a}/${o}`,
+  ]),
+]);
+
 const config: Config = {
   content: [
     "./app/**/*.{ts,tsx}",
     "./components/**/*.{ts,tsx}",
     "./lib/**/*.{ts,tsx}",
   ],
-  safelist: [
-    ...accents.map((a) => `text-accent-${a}`),
-    ...accents.map((a) => `bg-accent-${a}`),
-    ...accents.map((a) => `bg-accent-${a}/10`),
-    ...accents.map((a) => `bg-accent-${a}/20`),
-    ...accents.map((a) => `border-accent-${a}`),
-    ...accents.map((a) => `border-accent-${a}/40`),
-    ...accents.map((a) => `ring-accent-${a}`),
-    ...accents.map((a) => `shadow-accent-${a}/30`),
-  ],
+  safelist: accentSafelist,
   theme: {
     extend: {
       colors: {
