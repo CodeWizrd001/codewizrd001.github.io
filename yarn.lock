@@ -995,7 +995,6 @@ __metadata:
     framer-motion: "npm:^11.15.0"
     lucide-react: "npm:^0.468.0"
     next: "npm:^15.1.3"
-    postcss: "npm:^8.4.49"
     react: "npm:^19.0.0"
     react-dom: "npm:^19.0.0"
     tailwindcss: "npm:^3.4.17"
@@ -3452,7 +3451,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.4.47, postcss@npm:^8.4.49":
+"postcss@npm:^8.4.47":
   version: 8.5.26
   resolution: "postcss@npm:8.5.26"
   dependencies:
