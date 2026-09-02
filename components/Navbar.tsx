@@ -39,7 +39,7 @@ export function Navbar() {
           </span>
           <span className="hidden sm:inline">
             {profile.handle}
-            <span className="text-accent-mint">.dev</span>
+            <span className="text-accent-mint">.me</span>
           </span>
         </Link>
 

@@ -22,7 +22,7 @@ import {
 
 export const profile = {
   name: "Ajay P Sakthikumar",
-  handle: "CodeWizrd001",
+  handle: "codewizard",
   role: "Fullstack Developer",
   company: "ex-FlyFin AI · Harness · SAP",
   location: "Bengaluru, India",

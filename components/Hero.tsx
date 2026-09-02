@@ -60,8 +60,8 @@ export function Hero() {
       id="top"
       className="relative flex min-h-[100svh] items-center overflow-hidden pt-28"
     >
-      <div className="mx-auto grid w-full max-w-6xl grid-cols-1 gap-14 px-5 sm:px-8 md:grid-cols-[1.4fr_1fr] md:items-center">
-        <div>
+      <div className="mx-auto grid w-full max-w-6xl grid-cols-1 gap-14 px-5 sm:px-8 md:grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)] md:items-center">
+        <div className="min-w-0">
           <motion.p
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
@@ -81,15 +81,22 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.05 }}
             className="text-4xl font-semibold leading-[1.05] tracking-tight sm:text-5xl md:text-6xl"
           >
-            Hi, I&apos;m{" "}
-            <span className="text-gradient">Ajay</span>.
-            <br />
-            <span className="text-white/85">I</span>{" "}
-            <span className="whitespace-nowrap font-mono text-accent-mint">
+            Hi, I&apos;m <span className="text-gradient">Ajay</span>.
+          </motion.h1>
+
+          {/* Typing line — its own row so it can wrap without forcing the grid column wider. */}
+          <motion.div
+            initial={{ opacity: 0, y: 12 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.12 }}
+            className="mt-3 flex min-h-[2.4em] items-start font-mono text-2xl leading-snug sm:text-3xl md:text-[2rem]"
+          >
+            <span className="text-white/85">I&nbsp;</span>
+            <span className="text-accent-mint">
               {text}
               <span className="ml-0.5 inline-block h-[0.9em] w-[2px] translate-y-[2px] bg-accent-mint animate-blink align-middle" />
             </span>
-          </motion.h1>
+          </motion.div>
 
           <motion.p
             initial={{ opacity: 0, y: 16 }}
